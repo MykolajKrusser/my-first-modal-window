@@ -1,0 +1,48 @@
+html body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    position: relative;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#modalWindow{
+    background: url(img/layer.png) no-repeat center;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+.contentConfirm{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: antiquewhite;
+}
+#textConfirm{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 24px;
+    color: black;
+}
+#closeConfirm{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
