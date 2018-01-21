@@ -1,1 +1,1 @@
-# my-first-modal-window
+# my-first-modal-window with animation based on JavaScript
